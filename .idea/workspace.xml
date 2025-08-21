@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39f29ee8-4a5c-4dd0-bb88-deffb526d4aa" name="Changes" comment="&quot;add readme to 136&quot;">
-      <change afterPath="$PROJECT_DIR$/bitwise_operations/q136_single_number_1/solution_set.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bitwise_operations/q136_single_number_1/solution_xor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bitwise_operations/q136_single_number_1/tests/test.py" afterDir="false" />
+    <list default="true" id="39f29ee8-4a5c-4dd0-bb88-deffb526d4aa" name="Changes" comment="&quot;add sol to 136&quot;">
+      <change afterPath="$PROJECT_DIR$/Dictionary/Single_Number_2_q137.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Knapsack_Problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Longest-Increasing-Subsequence-300.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Single_Number_2_q137.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitwise_operations/Single_Number_1_q136.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/fib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/fib_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recursion/flip_num_by_rec_in_pairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/set/Single_Number_1_q136.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitwise_operations/136.single_number_1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bitwise_operations/q136_single_number_1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitwise_operations/q136_single_number_1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitwise_operations/q136_single_number_1/solution_set.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitwise_operations/q136_single_number_1/solution_xor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitwise_operations/q136_single_number_1/tests/test.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
         <option value="Python Script" />
       </list>
     </option>
@@ -50,11 +60,18 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.Python tests in test.py.executor": "Run",
+    "Python.Single_Number_1_q136.executor": "Run",
+    "Python.Single_Number_2_q137.executor": "Run",
+    "Python.fib.executor": "Run",
+    "Python.fib_2.executor": "Run",
+    "Python.flip_num_by_rec_in_pairs.executor": "Run",
     "Python.set.executor": "Run",
     "Python.solution_xor.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/ASUS/PycharmProjects/leetcode-solutions/Dictionary",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,10 +81,15 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\PycharmProjects\leetcode-solutions\Dictionary" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\PycharmProjects\leetcode-solutions" />
+      <recent name="C:\Users\ASUS\PycharmProjects\leetcode-solutions\practice" />
+      <recent name="C:\Users\ASUS\PycharmProjects\leetcode-solutions\bitwise_operations\q136_single_number_1" />
+      <recent name="C:\Users\ASUS\PycharmProjects\leetcode-solutions\bitwise_operations" />
       <recent name="C:\Users\ASUS\PycharmProjects\leetcode-solutions\bitwise_operations\q136_single_number_1\tests" />
-      <recent name="C:\Users\ASUS\PycharmProjects\leetcode-solutions\bitwise_operations\136.single_number_1" />
-      <recent name="C:\Users\ASUS\PycharmProjects\leetcode-solutions\bitwise_operations\README.md" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -87,7 +109,9 @@
       <updated>1754900646597</updated>
       <workItem from="1754900658101" duration="128000" />
       <workItem from="1754900825000" duration="2018000" />
-      <workItem from="1754985058574" duration="6547000" />
+      <workItem from="1754985058574" duration="9134000" />
+      <workItem from="1755091956220" duration="9069000" />
+      <workItem from="1755698649192" duration="12186000" />
     </task>
     <task id="LOCAL‎-00001" summary="&quot;add readme to 136&quot;">
       <option name="closed" value="true" />
@@ -105,7 +129,31 @@
       <option name="project" value="LOCAL‎" />
       <updated>1754985579494</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎-00003" summary="&quot;add sol to 136&quot;">
+      <option name="closed" value="true" />
+      <created>1754997816692</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL‎-00003" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1754997816692</updated>
+    </task>
+    <task id="LOCAL‎-00004" summary="&quot;add sol to 136&quot;">
+      <option name="closed" value="true" />
+      <created>1754997855039</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL‎-00004" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1754997855039</updated>
+    </task>
+    <task id="LOCAL‎-00005" summary="&quot;add sol to 136&quot;">
+      <option name="closed" value="true" />
+      <created>1754997864311</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL‎-00005" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1754997864311</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,11 +162,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add readme to 136" />
     <MESSAGE value="&quot;add readme to 136&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;add readme to 136&quot;" />
+    <MESSAGE value="&quot;add sol to 136&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;add sol to 136&quot;" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/leetcode_solutions$fib_2.coverage" NAME="fib_2 Coverage Results" MODIFIED="1755095085166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recursion" />
+    <SUITE FILE_PATH="coverage/leetcode_solutions$Single_Number_2_q137.coverage" NAME="Single_Number_2_q137 Coverage Results" MODIFIED="1755760722136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dictionary" />
+    <SUITE FILE_PATH="coverage/leetcode_solutions$flip_num_by_rec_in_pairs.coverage" NAME="flip_num_by_rec_in_pairs Coverage Results" MODIFIED="1755099290393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recursion" />
     <SUITE FILE_PATH="coverage/leetcode_solutions$solution_xor.coverage" NAME="solution_xor Coverage Results" MODIFIED="1754997419742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bitwise_operations/q136_single_number_1" />
     <SUITE FILE_PATH="coverage/leetcode_solutions$set.coverage" NAME="set Coverage Results" MODIFIED="1754989210375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bitwise_operations/q136_single_number_1" />
-    <SUITE FILE_PATH="coverage/leetcode_solutions$.coverage" NAME=" Coverage Results" MODIFIED="1754997300763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode_solutions$.coverage" NAME=" Coverage Results" MODIFIED="1754997712388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode_solutions$fib.coverage" NAME="fib Coverage Results" MODIFIED="1755094956789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recursion" />
+    <SUITE FILE_PATH="coverage/leetcode_solutions$Single_Number_1_q136.coverage" NAME="Single_Number_1_q136 Coverage Results" MODIFIED="1755758526661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bitwise_operations" />
   </component>
 </project>
